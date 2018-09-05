@@ -1,0 +1,12 @@
+`<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:CampaignService="http://www.healthenterprises.com.au/rescripts/Campaign/" xmlns:Campaign="http://www.healthenterprises.com.au/rescripts/Campaign/wsdl/" xmlns:Compliance="http://www.healthenterprises.com.au/rescripts/Compliance/wsdl/" xmlns:ProviderService="http://www.healthenterprises.com.au/rescripts/Provider/" xmlns:Provider="http://www.healthenterprises.com.au/rescripts/Provider/wsdl/" xmlns:Report="http://www.healthenterprises.com.au/rescripts/Report/wsdl/" xmlns:SMSService="http://www.healthenterprises.com.au/rescripts/SMS/" xmlns:SMS="http://www.healthenterprises.com.au/rescripts/SMS/wsdl/" xmlns:ScriptService="http://www.healthenterprises.com.au/rescripts/Script/" xmlns:Script="http://www.healthenterprises.com.au/rescripts/Script/wsdl/" xmlns:UserSessionService="http://www.healthenterprises.com.au/rescripts/UserSession/" xmlns:UserSession="http://www.healthenterprises.com.au/rescripts/UserSession/wsdl/">
+    <SOAP-ENV:Body>
+        <UserSession:loginDto>
+            <UserSession:username>MA344</UserSession:username>
+            <UserSession:password>QjacVigJCz/cr1tbzC4+Rg==</UserSession:password>
+            <UserSession:clientSoftware>PlusOne</UserSession:clientSoftware>
+            <UserSession:clientVersion>3.3.24.1</UserSession:clientVersion>
+            <UserSession:pcidentifier>4EC6-B6E8-E2B7-1AEC-6A8E-4C0E-E3A6-8A56</UserSession:pcidentifier>
+        </UserSession:loginDto>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>`
