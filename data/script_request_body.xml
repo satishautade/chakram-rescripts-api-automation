@@ -10,9 +10,9 @@
             <Script:requiredBy>2020-06-28T14:00:00Z</Script:requiredBy>
             <Script:urgent>true</Script:urgent>
             <Script:resent>false</Script:resent>
-            <Script:hl7Message>MSH|^~\&amp;|PlusOne 3.3.24.1|${dataRow.pharmacy_id}|Priscilla||${helpers.currTime()}||ORM^O01|MA34400004420|P|2.4^AUS||||NE|AUS||en&#xD;PID|||33^^^PlusOne^PI^^^~485^^^WiniFred^PI^^^~4283734251/1^^^AUSHIC^MC^^^||${dataRow.patient_last_name}^${dataRow.patient_first_name}^^^MR^^D^^||19880302|M|||HAROLD STREET^^CAMBERWELL^^2330^AU^C|||||||2||||||||||||||||||N|&#xD;PV1|||^^^^^^^^NO FACILITY||||||||||||||||||&#xD;ORC|RF|MA34400004420-0||MA34400004420|||||${helpers.currTime()}|||1234567^${dataRow.doctor_lastname}^${dataRow.doctor_firstname}^^^Dr^^^AUSHIC||^WPN^PH^^^^98671400~^WPN^FX^^^^98214622~^NET^Internet^${dataRow.doctor_email}^^^|${helpers.currTime()}|^O-Owing|MA344|||||||3/499 ST VINCENT'S HOSPI^^ MELBOURNE ^^ 4350 ^ AUS ^ C |&#xD; RXO |^ ${ dataRow.drug_name } }|||| PTCH ^^ L |^ Apply | ${ dataRow.drug_type } || N |^ ${ dataRow.drug_name }| 2 || 0 ||||||^ 10mcg / hr ^ L ||&#xD; RXE |||||||||||||||||||${dataRow.dispense_date}||||||||||||||${dataRow.script_date}|&#xD; NTE | 1 | PH ||&#xD;</Script:hl7Message>
-                <Script:pageBreak>false</Script:pageBreak>
-                <Script:useScriptDate>false</Script:useScriptDate>
-                </Script:sendRequest>
-                </SOAP-ENV:Body>
-                </SOAP-ENV:Envelope>`
+            <Script:hl7Message>MSH|^~\&amp;|PlusOne 3.3.24.1|${dataRow.pharmacy_id}|Priscilla||${helpers.currTime()}||ORM^O01|MA34400004420|P|2.4^AUS||||NE|AUS||en&#xD;PID|||33^^^PlusOne^PI^^^~485^^^WiniFred^PI^^^~4283734251/1^^^AUSHIC^MC^^^||${dataRow.patient_last_name}^${dataRow.patient_first_name}^^^MR^^D^^||19880302|M|||HAROLD STREET^^CAMBERWELL^^2330^AU^C|||||||2||||||||||||||||||N|&#xD;PV1|||^^^^^^^^NO FACILITY||||||||||||||||||&#xD;ORC|RF|MA34400004420-0||MA34400004420|||||${helpers.currTime()}|||1234567^${dataRow.doctor_lastname}^${dataRow.doctor_firstname}^^^Dr^^^AUSHIC||^WPN^PH^^^^98671400~^WPN^FX^^^^98214622~^NET^Internet^${dataRow.doctor_email}^^^|${helpers.currTime()}|^O-Owing|MA344|||||||3/499 ST VINCENT'S HOSPI^^ MELBOURNE ^^ 4350 ^ AUS ^ C |&#xD; RXO |^ ${dataRow.drug_name}|||| PTCH ^^ L |^ Apply | ${dataRow.drug_type} || N |^ ${dataRow.drug_name}| 2 || 0 ||||||^ 10mcg / hr ^ L ||&#xD; RXE |||||||||||||||||||${dataRow.dispense_date}||||||||||||||${dataRow.script_date}|&#xD; NTE | 1 | PH ||&#xD;</Script:hl7Message>
+            <Script:pageBreak>false</Script:pageBreak>
+            <Script:useScriptDate>false</Script:useScriptDate>
+        </Script:sendRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>`

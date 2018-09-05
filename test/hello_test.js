@@ -36,6 +36,7 @@ describe("Create Script Request for GPConnect Doctor", function () {
     for(const dataRow of TEST_DATA){
 
       console.log('**********************BEFORE*************************************');
+      console.log('DATA ROW => ' + JSON.stringify(dataRow));
       return chakram.post(BASEURL + 'UserSessionService', eval(USER_SESSION_BODY), options)
         .then(function (userSessionResponse) {
           expect(userSessionResponse).to.have.status(200);
@@ -50,6 +51,10 @@ describe("Create Script Request for GPConnect Doctor", function () {
           var referenceNo = helpers.parseReferenceNumber(scriptRequestResponse);
           console.log("Finally Our Reference no => " + referenceNo);
           return chakram.wait();
+        })
+        .catch((err)=> {
+          console.log(err.toJSON());
+          throw new Error(err.message);
         });
     };
   });
