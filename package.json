@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -u bdd -R spec --recursive"
+    "test": "mocha -t 3600000 -u bdd -R spec --recursive"
   },
   "author": "",
   "license": "ISC",
